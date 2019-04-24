@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="109px" viewBox="0 0 184 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="75.9350524%" y1="40.0403585%" x2="20.3776665%" y2="96.6423286%" id="linearGradient-1">
+            <stop stop-color="#DF8E53" offset="0%"></stop>
+            <stop stop-color="#EBB389" offset="100%"></stop>
+        </linearGradient>
+        <path d="M55.6277304,74.5679743 L55.6277304,74.5679743 L55.6277304,74.5679743 C56.2996682,74.972499 57.137905,74.9817303 57.8185887,74.5921018 L184.268023,2.21147583 L184.268023,2.21147583 C184.560138,2.04426705 184.661394,1.67191166 184.494186,1.3797968 C184.437854,1.28138478 184.355183,1.20064044 184.25547,1.14664422 L184.25547,1.14664422 L184.25547,1.14664422 C183.656928,0.822522745 182.933508,0.830176891 182.341958,1.16689014 L55.6434173,73.2843392 L55.6434173,73.2843392 C55.286415,73.4875468 55.1617397,73.9416866 55.3649472,74.2986889 C55.4280151,74.4094888 55.5185048,74.5022176 55.6277304,74.5679743 Z" id="path-2"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1127.000000, -569.000000)">
+            <g id="Group-11" transform="translate(775.000000, 308.000000)">
+                <g id="Group-9">
+                    <g id="Path-8" transform="translate(351.000000, 261.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <polygon fill="#BB6B2F" mask="url(#mask-3)" points="145.667288 18.6737797 152.699532 24.5965612 190.7422 1.9264789 184.067261 -3.23687853"></polygon>
+                        <ellipse id="Oval-6" stroke="#EAA673" stroke-width="0.5" cx="38.5" cy="85.5" rx="13.5" ry="8.5"></ellipse>
+                        <ellipse id="Oval-6-Copy" fill="#F5CCAD" transform="translate(2.500000, 103.000000) rotate(-6.000000) translate(-2.500000, -103.000000) " cx="2.5" cy="103" rx="1.5" ry="1"></ellipse>
+                        <ellipse id="Oval-6-Copy-2" fill="#F5CCAD" transform="translate(6.596311, 105.151315) rotate(-6.000000) translate(-6.596311, -105.151315) " cx="6.59631131" cy="105.151315" rx="1.5" ry="1"></ellipse>
+                        <ellipse id="Oval-6-Copy-3" fill="#F5CCAD" transform="translate(10.596311, 107.151315) rotate(-6.000000) translate(-10.596311, -107.151315) " cx="10.5963113" cy="107.151315" rx="1.5" ry="1"></ellipse>
+                        <g id="Group-10" transform="translate(38.950675, 85.294616) rotate(-49.000000) translate(-38.950675, -85.294616) translate(35.450675, 79.794616)" fill="#F5CCAD">
+                            <rect id="Rectangle-5" transform="translate(1.750000, 5.000000) rotate(-10.000000) translate(-1.750000, -5.000000) " x="1" y="1" width="1.5" height="8" rx="0.75"></rect>
+                            <rect id="Rectangle-5-Copy" transform="translate(4.750000, 6.000000) rotate(-10.000000) translate(-4.750000, -6.000000) " x="4" y="2" width="1.5" height="8" rx="0.75"></rect>
+                        </g>
+                        <polygon id="Triangle-2" fill="#F5CCAD" points="19.6844882 93.6270047 24.1297046 96.8617176 17.1844002 97.8361794"></polygon>
+                        <polygon id="Triangle-2-Copy" fill="#F5CCAD" points="16.6203834 95.2854845 21.0655998 98.5201975 14.1202954 99.4946593"></polygon>
+                        <ellipse id="Oval-6" fill="#F0B283" cx="149" cy="21.5" rx="4" ry="2.5"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

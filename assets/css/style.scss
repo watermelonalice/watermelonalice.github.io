@@ -167,12 +167,15 @@
 
 /* dots are lines */
 .flickity-page-dots .dot {
-    height: 4px;
-    width: 35px;
+    height: 1px;
+    width: 20px;
     opacity: 0.15;
     margin: 0 6px;
     border-radius: 50px;
     background: #fff;
+}
+.flickity-page-dots .dot.is-selected:after{
+    margin-top: 20px;
 }
 
 .carousel:after {

@@ -94,13 +94,12 @@
 
         @include breakpoint(md) {
             flex-direction: row;
-            max-width: 65%;
         }
 
         h3{
-            margin: 0;
+            margin: 0 1em 0 0;
             font-size: 3em;
-            flex: 1;
+            flex: 1.5;
 
             @include breakpoint(md) {
                 font-size: 1.8em;
@@ -113,13 +112,12 @@
             margin: 0.9em 0;
 
             @include breakpoint(md) {
-                font-size: 0.75em;
-                margin: 0 2em;
-                width: 70%;
+                font-size: 0.42em;
+                margin: 0.5em 0 0;
             }
         }
         ul{
-            flex: 3;
+            flex: 2;
             li{
                 color: #fff;
                 font-size: 1.6em;
@@ -152,7 +150,7 @@
 
     &__label{
         font-family: var(--font-secondary);
-        color: hsl(208, 21%, 32%);
+        color: #5f707d;
         font-weight: 300;
         font-size: 0.75em;
         margin-top: 1em;

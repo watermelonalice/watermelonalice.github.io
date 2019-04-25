@@ -1,9 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Fira+Sans:300,400,500|Roboto+Mono:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto+Mono:300,400|Roboto+Mono:300,400,500');
 
 :root {
   // font family
-  --font-primary: 'Playfair Display', sans-serif;
+  --font-primary: 'Playfair Display', -apple-system, BlinkMacSystemFont,' Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell, 'Helvetica Neue', sans-serif;
   --font-secondary: 'Roboto Mono', sans-serif;
 
   // body font size

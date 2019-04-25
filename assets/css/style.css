@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Fira+Sans:300,400,500|Roboto+Mono:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto+Mono:300,400|Roboto+Mono:300,400,500");
 *, *::after, *::before {
   box-sizing: inherit;
 }
@@ -1151,7 +1151,7 @@ img, video, svg {
 }
 
 :root {
-  --font-primary: 'Playfair Display', sans-serif;
+  --font-primary: 'Playfair Display', -apple-system, BlinkMacSystemFont,' Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell, 'Helvetica Neue', sans-serif;
   --font-secondary: 'Roboto Mono', sans-serif;
   --text-base-size: 1em;
   --text-scale-ratio: 1.2;
@@ -1179,7 +1179,7 @@ img, video, svg {
 body {
   font-size: 1em;
   font-size: var(--text-base-size);
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont,' Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell, 'Helvetica Neue', sans-serif;
   font-family: var(--font-primary);
   color: hsl(240, 4%, 20%);
   color: var(--color-contrast-high);
@@ -1986,15 +1986,14 @@ u {
   .works__info {
     -ms-flex-direction: row;
         flex-direction: row;
-    max-width: 65%;
   }
 }
 
 .works__info h3 {
-  margin: 0;
+  margin: 0 1em 0 0;
   font-size: 3em;
-  -ms-flex: 1;
-      flex: 1;
+  -ms-flex: 1.5;
+      flex: 1.5;
 }
 
 @media (min-width: 64rem) {
@@ -2013,15 +2012,14 @@ u {
 
 @media (min-width: 64rem) {
   .works__info p {
-    font-size: 0.75em;
-    margin: 0 2em;
-    width: 70%;
+    font-size: 0.42em;
+    margin: 0.5em 0 0;
   }
 }
 
 .works__info ul {
-  -ms-flex: 3;
-      flex: 3;
+  -ms-flex: 2;
+      flex: 2;
 }
 
 .works__info ul li {
@@ -2048,7 +2046,7 @@ u {
 }
 
 .works__subtitle {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont,' Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell, 'Helvetica Neue', sans-serif;
   font-family: var(--font-primary);
   color: hsl(208, 29%, 44%);
   color: var(--color-accent);
@@ -2059,7 +2057,7 @@ u {
 .works__label {
   font-family: 'Roboto Mono', sans-serif;
   font-family: var(--font-secondary);
-  color: #405363;
+  color: #5f707d;
   font-weight: 300;
   font-size: 0.75em;
   margin-top: 1em;

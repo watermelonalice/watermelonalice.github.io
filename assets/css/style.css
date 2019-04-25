@@ -2030,8 +2030,9 @@ u {
 
 @media (min-width: 64rem) {
   .works__info ul li {
-    font-size: 1em;
-    margin-bottom: 0;
+    font-size: 70%;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
   }
 }
 

@@ -2071,13 +2071,30 @@ u {
 }
 
 /* dots are lines */
+.flickity-page-dots {
+  bottom: 0;
+}
+
 .flickity-page-dots .dot {
-  height: 4px;
-  width: 35px;
+  height: 1px;
+  width: 20px;
   opacity: 0.15;
   margin: 0 6px;
   border-radius: 50px;
-  background: #fff;
+  background-color: #fff;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background-color: #042f54;
+}
+
+.flickity-page-dots .dot.is-selected:after {
+  content: '';
+  background-color: #fff;
+  height: 1px;
+  width: 20px;
+  display: block;
+  margin-top: 5px;
 }
 
 .carousel:after {
